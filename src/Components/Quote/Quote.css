@@ -1,0 +1,32 @@
+.Quote {
+    box-sizing: border-box;
+    background-color: aliceblue;
+    max-width: 400px;
+    min-width: 350px;
+
+    padding: 40px 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.quote-text, .quote-author  {
+    /* color: blueviolet; */
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+.quote-text {
+    font-size: 1.25rem;
+}
+
+.quote-author {
+    font-size: .875rem;
+}
+
+
+.fa-quote-left:before {
+    margin-right: 10px;
+}
+
+
