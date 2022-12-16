@@ -51,7 +51,7 @@ class App extends React.Component {
             onNewQuote={this.updateMachine}
              />
           <br />
-          <span>by BetaKrankri</span>
+          <span>by <a href='https://github.com/BetaKrankri/QuoteMachine' target='_blank'>BetaKrankri</a></span>
         </div>
       </div>
     );
