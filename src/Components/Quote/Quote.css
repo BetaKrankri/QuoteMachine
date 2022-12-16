@@ -1,6 +1,6 @@
 .Quote {
     box-sizing: border-box;
-    background-color: aliceblue;
+    background-color: white;
     max-width: 400px;
     min-width: 350px;
 
@@ -11,16 +11,21 @@
     align-items: flex-end;
 }
 
-.quote-text, .quote-author  {
+.quote-text,
+.quote-author {
+    transition: color 1s ease-out;
+
     /* color: blueviolet; */
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 
 .quote-text {
     font-size: 1.25rem;
+    font-weight: 600;
 }
 
 .quote-author {
+    font-weight: 400;
     font-size: .875rem;
 }
 
@@ -28,5 +33,3 @@
 .fa-quote-left:before {
     margin-right: 10px;
 }
-
-
